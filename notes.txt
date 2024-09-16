@@ -1,0 +1,55 @@
+Task 1:
+I do all the installation of server side.
+
+Task 2:
+I install the packages:
+nodemon - a command-line tool that helps with the speedy development of Node. js applications(automatically saved our code and run server)
+fastify - web framework for Node. js that prioritizes speed, efficiency, and developer experience. aternative of express.js
+mongoose  - Node.js based Object Data Modeling (ODM) library for MongoDB
+dotenv (.env) - .env file
+mongodb    -  mongodb db
+bycrypt  - used for secure the password it automatcially incrypted the password when the time of store
+
+
+
+
+
+Task 3: (cmt down by me on code split)
+I used callback function 
+
+
+Task 4: Related to DB
+
+I created the mongo db cluster 
+Set the username - srujalshete123@gmail.com AND PASS - Sujal123
+
+mongo url-mongodb+srv://<db_username>:<db_password>@cluster0.vqf89.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+TAsk 5: I used MVC pattern (Model View Controller) 
+That is in sr folder(config, model, routes, controllers etc..)
+
+Task 6: Use import instead of require
+
+In package.json file I write the "type": "module", and choose module for used the 
+import instead of require in package.json files line no 10
+
+
+Task 7: Define the models (file name) and Schema's
+user.js
+Customer user (Public) Schema
+admin user Schema
+delivery partner Schema
+
+branch.js
+brach Schema
+
+index.js 
+export all the schema's of user.js & branch.js
+
+
+
+
+Task 8: hooks Folder in src 
+
+I created the hooks folder in src for contains the logic for hashing passwords and comparing passwords.
+i created the file passwordHooks.js (DeliveryPartner Schema)
